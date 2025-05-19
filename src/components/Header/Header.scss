@@ -1,0 +1,32 @@
+.header {
+  background-image: url('/src/assets/images/header/hero.webp');
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 422px;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 0;
+    border-bottom: 1px solid var(--color-white-60);
+  }
+
+  &__bottom {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 47px;
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-white);
+  }
+
+}

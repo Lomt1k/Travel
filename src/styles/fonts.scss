@@ -1,23 +1,9 @@
+/* cyrillic */
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300 800;
+  font-stretch: 100%;
   font-display: swap;
-  src: url('../assets/fonts/Poppins-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../assets/fonts/Poppins-Medium.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('../assets/fonts/Poppins-SemiBold.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans.woff2') format('woff2');
 }

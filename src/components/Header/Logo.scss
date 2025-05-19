@@ -1,0 +1,16 @@
+.logo {
+  padding: 0 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  height: 41px;
+  color: var(--color-white);
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.170em;
+  font-family: "Arial", sans-serif;
+  user-select: none;
+  outline: none;
+}
